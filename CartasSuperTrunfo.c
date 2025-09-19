@@ -181,7 +181,7 @@ int main(){
         case 3:
             printf("Comparando o ### PIB ### da cidade %s com a cidade %s.\n", cidade1, cidade2);
             printf("Cidade %s, PIB: %.3f\n", cidade1, pib1);
-            printf("Cidade %s, PIBpib: %.3f\n", cidade2, pib2);
+            printf("Cidade %s, PIB: %.3f\n", cidade2, pib2);
             if (pib1 > pib2){
                 printf("Cidade %s (### Carta 1 ###) venceu!\n", cidade1);
             } else if (pib1 < pib2){
