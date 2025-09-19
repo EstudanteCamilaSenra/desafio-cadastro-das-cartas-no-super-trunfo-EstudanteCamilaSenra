@@ -229,7 +229,7 @@ int main(){
         case 7:
             printf("Comparando o ### Super Poder ### da cidade %s com a cidade %s.\n", cidade1, cidade2);
             printf("Cidade %s, super poder: %.2f\n", cidade1, superPoder1);
-            printf("Cidade %s, super poder: %.2pibPerCapf\n", cidade2, superPoder2);
+            printf("Cidade %s, super poder: %.2p\n", cidade2, superPoder2);
             if (superPoder1 > superPoder2){
                 printf("Cidade %s (### Carta 1 ###) venceu!\n", cidade1);
             } else if (superPoder1 < superPoder2){
